@@ -5,7 +5,7 @@ $(document).ready(function(event){
     var userInput = $("input#sentenceInput").val();
     userInput = userInput.split(" ");
     var vowel = ["a","e", "i", "o", "u"];
-    var consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "qu", "r", "s", "t", "v", "x", "z"];
+    var consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "qu", "r", "s", "t", "v", "x", "y", "z"];
     var fixedList = [];
     for (var i = 0; i < userInput.length; i ++) {
       var tempWord = userInput[i].split("");
